@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" type="image/png" href="img/favicon.ico">
+  <link rel="stylesheet" href="glider.css">
+  <link rel="stylesheet" href="reservation.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  <title>Menu</title>
+</head>
+
+<body>
+
+
+
+  <div id="home" class="container">
+
+    <div class="showcase">
+      <div class="wraper">
+        <div class="navigation">
+          <div class="logo">
+            PAPA-CHEF <i class="fas fa-utensils"></i>
+          </div>
+          <div class="nav-bar">
+            <ul>
+              <li><a href="index.html">Welcome</a></li>
+              <li><a href="reservation.html" class="active">Reservation</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="about.html">about</a></li>
+              <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+          </div>
+          <!-- nav-bar-hide -->
+          <div class="nav-bar-hide">
+            <ul>
+              <li><a href="index.html">Welcome</a></li>
+              <li><a href="reservation.html" class="active">Reservation</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="about.html">about</a></li>
+              <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+          </div>
+
+          <!-- Btn toggle -->
+          <div class="btn-menu">
+            <div class="border box1">
+
+            </div>
+            <div class="border box2">
+
+            </div>
+            <div class="border box3">
+
+            </div>
+
+          </div>
+        </div>
+        <!-- Inner text of Showcase -->
+        <div class="text-wrapper">
+          <div class="welcome-txt">
+            <h2>Make a</h1>
+              <h1> Reservation
+              </h1>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Section of menu -->
+
+  <section class="container bg-white">
+    <div class="wraper padding">
+      <h1 class="center">Make Online Reservation</h1>
+      <div class="grid-6">
+        <div class="date">
+
+          <input type="date" required>
+        </div>
+        <div class="time">
+          <span><i class="far fa-clock"></i></span>
+          <select id="times" class="pd-left">
+            <option>5:00 PM</option>
+            <option>5:30 PM</option>
+            <option>6:00 PM</option>
+            <option>6:30 PM</option>
+            <option>7:00 PM</option>
+            <option>7:30 PM</option>
+            <option>8:30 PM</option>
+            <option>9:00 PM</option>
+            <option>9:30 PM</option>
+          </select>
+        </div>
+        <div class="people">
+          <span><i class="fas fa-user-friends"></i></span>
+          <select id="peoples" class="pd-left">
+            <option>2 People</option>
+            <option>3 People</option>
+            <option>4 People</option>
+            <option>5 People</option>
+            <option>6 People</option>
+            <option>7 People</option>
+            <option>8 People</option>
+            <option>9 People</option>
+            <option>10 People</option>
+          </select>
+        </div>
+        <div class="name">
+          <span><i class="fas fa-user-edit"></i></span>
+          <input type="text" placeholder="Name" class="pd-left">
+        </div>
+        <div class="phone">
+          <span><i class="fas fa-mobile-alt"></i></span>
+          <input type="number" placeholder="Phone" class="pd-left">
+        </div>
+        <div class="email">
+          <span><i class="fas fa-envelope-square"></i></span>
+          <input type="text" placeholder="Email..." class="pd-left">
+        </div>
+      </div>
+      <button class="btn-reserve">Request Booking</button>
+
+      <div class="flex-2">
+        <div class="left-text flex1">
+          <h1 class="mr-b">RESERVE BY PHONE</h1>
+          <p>We take reservations for lunch and dinner. To make a reservation, please call us at (555) 5555 555 between
+            10am-6pm, Monday to Friday.
+            <br>
+            We do not book the bar area – we leave this for walk-in guests to ensure that we always offer some tables
+            for those who have not booked.</p>
+        </div>
+        <div class="right-text flex1">
+          <h1 class="mr-b">PRIVATE DINING & EVENTS</h1>
+          <p>Whatever your event or celebration, we are here to make your special day a truly memorable one. Papa-Chefs
+            private dining experts are more than happy to create custom floral arrangements and arrange for guests to
+            meet Chef Moise during the course of their meal. For parties of 8-12 we have the roastery table which is
+            available for private hire.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- Carusel slider -->
+  <section id="carusel">
+    <div class="glider-contain">
+      <div class="glider">
+        <div class="img1"></div>
+        <div class="img2"></div>
+        <div class="img3"></div>
+      </div>
+
+      <button role="button" aria-label="Previous" class="glider-prev"><i class="fas fa-chevron-left carusel-icon"></i></button>
+      <button role="button" aria-label="Next" class="glider-next"><i class="fas fa-chevron-right carusel-icon"></i></button>
+      
+    </div>
+  </section>
+<!-- Banner section -->
+
+<section id="banner">
+  <div class="wraper padding">
+    <div class="banner">
+      <h1>
+        CHAMPAGNE ON US
+      </h1>
+      <p>
+        Every Monday, Tuesday and Wednesday evening, we’re offering groups of 10 or more that book an area in our bar
+        a complimentary bottle of Champagne.</p>
+      <p>
+        Call our reservations team on (027) 8338 145 for more information.
+      </p>
+    </div>
+  </div>
+</section>
+
+  <!-- footer -->
+  <div id="contact-us" class="container footer">
+    <div class="wraper">
+
+      <div class="location">
+        <h1>LOCATIONS<span class="mr-left"><i class="fas fa-map-marker-alt"></i></span></h1>
+        <ul>
+          <li>376 Van Brunt St</li>
+          <li>Brooklyin,Ny - 11214</li>
+        </ul>
+        <ul>
+          <li>Avenue of the Stars,Century City.</li>
+          <li>2030 E Florence Ave</li>
+        </ul>
+      </div>
+      <div class="hours">
+        <h1>HOURS<span class="mr-left"><i class="fas fa-clock"></i></span></h1>
+
+        <ul>
+          <li>Monday-Wednesday</li>
+          <li>9:30am - 10:30pm</li>
+        </ul>
+        <ul>
+          <li>Thursday-Saturday</li>
+          <li>10:30am - 11:00pm</li>
+        </ul>
+        <ul>
+          <li>Sunday</li>
+          <li>10:30am - 6:00pm</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+
+  <script src="glider.js"></script>
+  <script src="reservation.js"></script>
+</body>
+
+</html>
