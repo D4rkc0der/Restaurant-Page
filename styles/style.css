@@ -31,7 +31,7 @@ body{
 /* showcase */
 .showcase{
   height: 100vh;
-  background:linear-gradient(to bottom, #000000, transparent, transparent, transparent,transparent),url(img/bg1.jpg);
+  background:linear-gradient(to bottom, #000000, transparent, transparent, transparent,transparent),url(../img/bg1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -286,7 +286,7 @@ letter-spacing: 5px;
 
 }
 .section2{
-  background: url(img/bg4.jpeg);
+  background: url(../img/bg4.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -376,7 +376,7 @@ width: 100%;
   
   }
   .section3{
-    background: url(img/bg3.jpeg);
+    background: url(../img/bg3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
